@@ -1,0 +1,191 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  
+  
+  flex-direction: column;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.fundo {
+  display: flex;
+  width: 400px;
+  height: 150px;
+  border: 4px solid black;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+    
+  );
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px 6px gray;
+}
+
+#exercicio {
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+#botaoEntrar {
+  margin: 10px;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  background-color: green;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px gray;
+  cursor: pointer;
+}
+
+#botaoSair {
+  margin: 10px;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px gray;
+  cursor: pointer;
+}
+
+#pagInicial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 800px;
+  height: 800px;
+  background-color: #5151519f;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.todosOsExercicios {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px rgb(255, 255, 255);
+  background-color: rgb(255, 238, 141);
+  cursor: pointer;
+}
+
+.escolhaDoExercicio {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px rgb(128, 128, 128);
+  margin: auto;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.exibirExercicioSelecionado{
+  display: flex;
+  width: 200px;
+  height: 40px;
+  color: black;
+  margin: 10px 0;
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px rgb(255, 255, 255);
+  background-color: rgb(255, 238, 141);
+  cursor: pointer;
+}
+
+#tituloInicial, h5, label{
+  color: white;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin-top: 580px; /* Ajuste conforme necessário */
+  cursor: pointer;
+}
+
+#voltar {
+  width: 180px;
+  height: 30px;
+  color: black;
+  border: 2px solid black;
+  background-color: rgb(242, 255, 0);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px gray;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+

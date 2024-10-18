@@ -1,0 +1,92 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Garante que o #root ocupe 100% da altura da tela */
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#pagInicial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 800px;
+  height: auto; 
+  background-color: #5151519f;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.fundo {
+  display: flex;
+  width: 400px;
+  height: 150px;
+  border: 4px solid black;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 5px 5px 10px 6px gray;
+  margin: 20px auto; /* Centraliza no eixo horizontal */
+}
+
+.todosOsExercicios, .exibirExercicioSelecionado, .escolhaDoExercicio {
+  margin: 10px 0;
+  /* Mantém o espaçamento entre os botões */
+}
+
+#tituloInicial, h5, label {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.todosOsExercicios, .exibirExercicioSelecionado {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 3px rgb(255, 255, 255);
+  background-color: rgb(255, 238, 141);
+}
+
+.escolhaDoExercicio {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+}
